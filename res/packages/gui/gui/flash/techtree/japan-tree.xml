@@ -1,0 +1,199 @@
+<japan-tree.xml>
+  <settings>normal</settings>
+  <grid>grid_1<rows>	10	</rows><columns>	10	</columns></grid>
+  <nodes>
+    <NC27>
+      <row>	1	</row>
+      <column>	1	</column>
+      <lines>
+        <Ha_Go>
+        </Ha_Go>
+        <Chi_Ni>
+        </Chi_Ni>
+        <J26_Type_89>
+        </J26_Type_89>
+      </lines>
+    </NC27>
+    <Ha_Go>
+      <row>	5	</row>
+      <column>	2	</column>
+      <lines>
+        <Ke_Ni>
+        </Ke_Ni>
+      </lines>
+    </Ha_Go>
+    <Chi_Ni>
+      <row>	6	</row>
+      <column>	2	</column>
+      <lines>
+        <Chi_Ha>
+        </Chi_Ha>
+      </lines>
+    </Chi_Ni>
+    <Te_Ke>
+      <row>	7	</row>
+      <column>	2	</column>
+    </Te_Ke>
+    <J26_Type_89>
+      <row>	8	</row>
+      <column>	2	</column>
+      <lines>
+        <J21_Type_91>
+        </J21_Type_91>
+      </lines>
+    </J26_Type_89>
+    <Ke_Ni>
+      <row>	5	</row>
+      <column>	3	</column>
+      <lines>
+        <Ke_Ho>
+        </Ke_Ho>
+      </lines>
+    </Ke_Ni>
+    <Chi_Ha>
+      <row>	6	</row>
+      <column>	3	</column>
+      <lines>
+        <Chi_He>
+        </Chi_He>
+      </lines>
+    </Chi_Ha>
+    <Ke_Ni_B>
+      <row>	7	</row>
+      <column>	3	</column>
+    </Ke_Ni_B>
+    <J21_Type_91>
+      <row>	8	</row>
+      <column>	3	</column>
+      <lines>
+        <J22_Type_95>
+        </J22_Type_95>
+      </lines>
+    </J21_Type_91>
+    <Ke_Ho>
+      <row>	5	</row>
+      <column>	4	</column>
+      <lines>
+        <Chi_Nu>
+          <line>H_Diag</line>
+        </Chi_Nu>
+      </lines>
+    </Ke_Ho>
+    <Chi_He>
+      <row>	6	</row>
+      <column>	4	</column>
+      <lines>
+        <Chi_Nu>
+        </Chi_Nu>
+      </lines>
+    </Chi_He>
+    <J22_Type_95>
+      <row>	8	</row>
+      <column>	4	</column>
+      <lines>
+        <J23_Mi_To>
+        </J23_Mi_To>
+      </lines>
+    </J22_Type_95>
+    <Chi_Nu>
+      <row>	6	</row>
+      <column>	5	</column>
+      <lines>
+        <Chi_To>
+        </Chi_To>
+      </lines>
+    </Chi_Nu>
+    <Chi_Nu_Kai>
+      <row>	7	</row>
+      <column>	5	</column>
+    </Chi_Nu_Kai>
+    <J23_Mi_To>
+      <row>	8	</row>
+      <column>	5	</column>
+      <lines>
+        <J24_Mi_To_130_tons>
+        </J24_Mi_To_130_tons>
+      </lines>
+    </J23_Mi_To>
+    <Chi_To>
+      <row>	6	</row>
+      <column>	6	</column>
+      <lines>
+        <Chi_Ri>
+        </Chi_Ri>
+      </lines>
+    </Chi_To>
+    <J19_Tiger_I_Jpn>
+      <row>	7	</row>
+      <column>	6	</column>
+    </J19_Tiger_I_Jpn>
+    <J24_Mi_To_130_tons>
+      <row>	8	</row>
+      <column>	6	</column>
+      <lines>
+        <J28_O_I_100>
+        </J28_O_I_100>
+      </lines>
+    </J24_Mi_To_130_tons>
+    <Chi_Ri>
+      <row>	6	</row>
+      <column>	7	</column>
+      <lines>
+        <STA_1>
+        </STA_1>
+      </lines>
+    </Chi_Ri>
+    <J28_O_I_100>
+      <row>	8	</row>
+      <column>	7	</column>
+      <lines>
+        <J27_O_I_120>
+        </J27_O_I_120>
+      </lines>
+    </J28_O_I_100>
+    <STA_1>
+      <row>	6	</row>
+      <column>	8	</column>
+      <lines>
+        <Type_61>
+        </Type_61>
+      </lines>
+    </STA_1>
+    <J18_STA_2_3>
+      <row>	7	</row>
+      <column>	8	</column>
+    </J18_STA_2_3>
+    <J27_O_I_120>
+      <row>	8	</row>
+      <column>	8	</column>
+      <lines>
+        <J25_Type_4>
+        </J25_Type_4>
+      </lines>
+    </J27_O_I_120>
+    <Type_61>
+      <row>	6	</row>
+      <column>	9	</column>
+      <lines>
+        <ST_B1>
+        </ST_B1>
+      </lines>
+    </Type_61>
+    <J25_Type_4>
+      <row>	8	</row>
+      <column>	9	</column>
+      <lines>
+        <J20_Type_2605>
+        </J20_Type_2605>
+      </lines>
+    </J25_Type_4>
+    <ST_B1>
+      <row>	6	</row>
+      <column>	10	</column>
+    </ST_B1>
+    <J20_Type_2605>
+      <row>	8	</row>
+      <column>	10	</column>
+    </J20_Type_2605>
+  </nodes>
+</japan-tree.xml>

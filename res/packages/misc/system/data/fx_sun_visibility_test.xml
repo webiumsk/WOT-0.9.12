@@ -1,0 +1,9 @@
+<fx_sun_visibility_test.xml>
+  <maxDistance>	1000000	</maxDistance>
+  <area>	5	</area>
+  <fadeSpeed>	12	</fadeSpeed>
+  <Flare>
+    <occlusionLevel>0.01</occlusionLevel>
+    <size>99.9</size>
+  </Flare>
+</fx_sun_visibility_test.xml>

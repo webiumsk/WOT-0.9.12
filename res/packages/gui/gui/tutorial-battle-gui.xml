@@ -1,0 +1,575 @@
+<tutorial-battle-gui.xml>
+  <scenes>
+    <scene>
+      <name>battle</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>sceneID</name>
+          <value>Battle</value>
+        </item>
+        <item>
+          <name>event</name>
+          <value>
+          </value>
+        </item>
+      </value>
+    </scene>
+  </scenes>
+  <gui-items>
+    <item>
+      <name>GuiRoot</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>battle</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>_root</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>Dialog</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>battle</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>_dialog</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>DebugPanel</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>battle</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>debugPanel</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>LeftPlayerPanel</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>battle</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>leftPanel</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>	RightPlayerPanel	</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>battle</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>rightPanel</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>PlayerPanelSwitcher</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>battle</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>switcher_mc</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>Messenger</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>battle</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>messenger</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>FragCorrelationBar</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>battle</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>fragCorrelationBar</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>	BattleTarget	</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>battle</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>timerBig.win</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>MovingText</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>battle</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>textMoving</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>	RibbonsPanel	</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>battle</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>	ribbonsPanel	</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+  </gui-items>
+  <gui-commands>
+    <command>
+      <name>	RemoveKeyHandlersInFlash	</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	type	</name>
+          <value>flash-call</value>
+        </item>
+        <item>
+          <name>	name	</name>
+          <value>battle.BIH.removeHandlers</value>
+        </item>
+        <item>
+          <name>	args	</name>
+          <type>	list	</type>
+          <value>
+            <item>
+              <type>int</type>
+              <value>	13	</value>
+            </item>
+            <item>
+              <type>int</type>
+              <value>	9	</value>
+            </item>
+            <item>
+              <type>int</type>
+              <value>	112	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </command>
+    <command>
+      <name>DisableRadialMenu</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	type	</name>
+          <value>python-dummy</value>
+        </item>
+        <item>
+          <name>	name	</name>
+          <value>gui.Scaleform.daapi.view.battle.RadialMenu.RadialMenu.handleKey</value>
+        </item>
+        <item>
+          <name>	args	</name>
+          <type>	list	</type>
+          <value>
+          </value>
+        </item>
+      </value>
+    </command>
+    <command>
+      <name>DisableMinimap</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	type	</name>
+          <value>python-dummy</value>
+        </item>
+        <item>
+          <name>	name	</name>
+          <value>gui.Scaleform.Minimap.Minimap.handleKey</value>
+        </item>
+        <item>
+          <name>	args	</name>
+          <type>	list	</type>
+          <value>
+          </value>
+        </item>
+      </value>
+    </command>
+    <command>
+      <name>DisableGUIVisibleToggle</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	type	</name>
+          <value>python-dummy</value>
+        </item>
+        <item>
+          <name>	name	</name>
+          <value>gui.Scaleform.Battle.Battle.showAll</value>
+        </item>
+        <item>
+          <name>	args	</name>
+          <type>	list	</type>
+          <value>
+          </value>
+        </item>
+      </value>
+    </command>
+    <command>
+      <name>DisableAIMVisibleToggle</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	type	</name>
+          <value>python-dummy</value>
+        </item>
+        <item>
+          <name>	name	</name>
+          <value>AvatarInputHandler.AvatarInputHandler.setGUIVisible</value>
+        </item>
+        <item>
+          <name>	args	</name>
+          <type>	list	</type>
+          <value>
+          </value>
+        </item>
+      </value>
+    </command>
+  </gui-commands>
+</tutorial-battle-gui.xml>

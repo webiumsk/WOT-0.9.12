@@ -1,0 +1,158 @@
+<vehicle_errors_panel.xml>
+  <settings>
+    <setting>
+      <name>direction</name>
+      <value>up</value>
+    </setting>
+    <setting>
+      <name>maxLinesCount</name>
+      <type>int</type>
+      <value>	3	</value>
+    </setting>
+    <setting>
+      <name>	lifeTime	</name>
+      <type>float</type>
+      <value>1.5</value>
+    </setting>
+    <setting>
+      <name>alphaSpeed</name>
+      <type>float</type>
+      <value>1.5</value>
+    </setting>
+    <setting>
+      <name>showUniqueOnly</name>
+      <type>	bool	</type>
+      <value>	True	</value>
+    </setting>
+  </settings>
+  <messages>
+    <message>
+      <name>	cantMoveVehicleDestroyed	</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/cant_move/vehicle_destroyed)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>	cantMoveCrewInactive	</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/cant_move/crew_inactive)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>cantMoveEngineDamaged</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/cant_move/engine_damaged)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>cantMoveChassisDamaged</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/cant_move/chassis_damaged)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>cantShootVehicleDestroyed</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/cant_shoot/vehicle_destroyed)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>cantShootCrewInactive</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/cant_shoot/crew_inactive)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>cantShootNoAmmo</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/cant_shoot/no_ammo)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>cantShootGunDamaged</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/cant_shoot/gun_damaged)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>cantShootGunLocked</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/cant_shoot/gun_locked)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>cantShootGunReloading</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/cant_shoot/gun_reload)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>equipmentAlreadyActivated</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/equipment/alreadyActivated)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>medkitTankmanIsSafe</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/equipment/medkit/tankmanIsSafe)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>medkitAllTankmenAreSafe</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/equipment/medkit/allTankmenAreSafe)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>repairkitDeviceIsNotDamaged</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/equipment/repairkit/deviceIsNotDamaged)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>	repairkitAllDevicesAreNotDamaged	</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/equipment/repairkit/allDevicesAreNotDamaged)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+    <message>
+      <name>	extinguisherDoesNotActivated	</name>
+      <type>	list	</type>
+      <value>
+        <item>_(#ingame_gui:player_errors/equipment/extinguisher/doesNotActivated)</item>
+        <item>yellow</item>
+      </value>
+    </message>
+  </messages>
+</vehicle_errors_panel.xml>

@@ -1,0 +1,9 @@
+<corona_volumelight.xml>
+  <Flare>
+    <occlusionLevel>	0	</occlusionLevel>
+    <type>system/materials/corona_volumelight.mfm</type>
+    <size>0.03</size>
+    <depth>	1	</depth>
+    <rgba>255 255 255 192</rgba>
+  </Flare>
+</corona_volumelight.xml>

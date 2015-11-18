@@ -1,0 +1,122 @@
+<graphics_settings.xml>
+  <flora>
+    <option>
+      <label>MAX</label>
+      <value>4.0</value>
+    </option>
+    <option>
+      <label>	HIGH	</label>
+      <value>1.3</value>
+    </option>
+    <option>
+      <label>MEDIUM</label>
+      <value>0.6</value>
+    </option>
+    <option>
+      <label>LOW</label>
+      <value>0.3</value>
+    </option>
+    <option>
+      <label>OFF</label>
+      <value>0.0</value>
+    </option>
+  </flora>
+  <farPlane>
+    <option>
+      <label>MAX</label>
+      <value>1.0</value>
+    </option>
+    <option>
+      <label>	HIGH	</label>
+      <value>0.8</value>
+    </option>
+    <option>
+      <label>MEDIUM</label>
+      <value>0.6</value>
+    </option>
+    <option>
+      <label>LOW</label>
+      <value>0.6</value>
+    </option>
+  </farPlane>
+  <objectLOD>
+    <option>
+      <label>MAX</label>
+      <value>1.0</value>
+    </option>
+    <option>
+      <label>	HIGH	</label>
+      <value>0.8</value>
+    </option>
+    <option>
+      <label>MEDIUM</label>
+      <value>0.6</value>
+    </option>
+    <option>
+      <label>LOW</label>
+      <value>0.4</value>
+    </option>
+  </objectLOD>
+  <PS_settings>
+    <option>
+      <label>MAX</label>
+      <LOD_OFFSET>0.0</LOD_OFFSET>
+      <LOD_MULT>1.0</LOD_MULT>
+      <TIME_MULT>1.0</TIME_MULT>
+      <TESSELATION_SCALE_FACTOR>0.5</TESSELATION_SCALE_FACTOR>
+      <TESSELATION_MAX_LEVEL>	5	</TESSELATION_MAX_LEVEL>
+      <RENDER_QUALITY>	0	</RENDER_QUALITY>
+      <LOD_SNIPER_OFFSET>60.0</LOD_SNIPER_OFFSET>
+      <LOD_SNIPER_MULT>1.0</LOD_SNIPER_MULT>
+      <TIME_SNIPER_MULT>1.0</TIME_SNIPER_MULT>
+      <TESSELATION_SNIPER_SCALE_FACTOR>0.5</TESSELATION_SNIPER_SCALE_FACTOR>
+      <TESSELATION_SNIPER_MAX_LEVEL>	5	</TESSELATION_SNIPER_MAX_LEVEL>
+      <RENDER_SNIPER_QUALITY>	0	</RENDER_SNIPER_QUALITY>
+    </option>
+    <option>
+      <label>	HIGH	</label>
+      <LOD_OFFSET>0.0</LOD_OFFSET>
+      <LOD_MULT>1.0</LOD_MULT>
+      <TIME_MULT>1.0</TIME_MULT>
+      <TESSELATION_SCALE_FACTOR>0.5</TESSELATION_SCALE_FACTOR>
+      <TESSELATION_MAX_LEVEL>	3	</TESSELATION_MAX_LEVEL>
+      <RENDER_QUALITY>	1	</RENDER_QUALITY>
+      <LOD_SNIPER_OFFSET>60.0</LOD_SNIPER_OFFSET>
+      <LOD_SNIPER_MULT>1.0</LOD_SNIPER_MULT>
+      <TIME_SNIPER_MULT>1.0</TIME_SNIPER_MULT>
+      <TESSELATION_SNIPER_SCALE_FACTOR>0.5</TESSELATION_SNIPER_SCALE_FACTOR>
+      <TESSELATION_SNIPER_MAX_LEVEL>	3	</TESSELATION_SNIPER_MAX_LEVEL>
+      <RENDER_SNIPER_QUALITY>	1	</RENDER_SNIPER_QUALITY>
+    </option>
+    <option>
+      <label>MEDIUM</label>
+      <LOD_OFFSET>60.0</LOD_OFFSET>
+      <LOD_MULT>1.1</LOD_MULT>
+      <TIME_MULT>1.0</TIME_MULT>
+      <TESSELATION_SCALE_FACTOR>0.5</TESSELATION_SCALE_FACTOR>
+      <TESSELATION_MAX_LEVEL>	0	</TESSELATION_MAX_LEVEL>
+      <RENDER_QUALITY>	2	</RENDER_QUALITY>
+      <LOD_SNIPER_OFFSET>80.0</LOD_SNIPER_OFFSET>
+      <LOD_SNIPER_MULT>1.1</LOD_SNIPER_MULT>
+      <TIME_SNIPER_MULT>1.5</TIME_SNIPER_MULT>
+      <TESSELATION_SNIPER_SCALE_FACTOR>0.5</TESSELATION_SNIPER_SCALE_FACTOR>
+      <TESSELATION_SNIPER_MAX_LEVEL>	0	</TESSELATION_SNIPER_MAX_LEVEL>
+      <RENDER_SNIPER_QUALITY>	2	</RENDER_SNIPER_QUALITY>
+    </option>
+    <option>
+      <label>LOW</label>
+      <LOD_OFFSET>	100	</LOD_OFFSET>
+      <LOD_MULT>1.2</LOD_MULT>
+      <TIME_MULT>1.0</TIME_MULT>
+      <TESSELATION_SCALE_FACTOR>0.5</TESSELATION_SCALE_FACTOR>
+      <TESSELATION_MAX_LEVEL>	0	</TESSELATION_MAX_LEVEL>
+      <RENDER_QUALITY>	4	</RENDER_QUALITY>
+      <LOD_SNIPER_OFFSET>	120	</LOD_SNIPER_OFFSET>
+      <LOD_SNIPER_MULT>1.2</LOD_SNIPER_MULT>
+      <TIME_SNIPER_MULT>2.0</TIME_SNIPER_MULT>
+      <TESSELATION_SNIPER_SCALE_FACTOR>0.5</TESSELATION_SNIPER_SCALE_FACTOR>
+      <TESSELATION_SNIPER_MAX_LEVEL>	0	</TESSELATION_SNIPER_MAX_LEVEL>
+      <RENDER_SNIPER_QUALITY>	4	</RENDER_SNIPER_QUALITY>
+    </option>
+  </PS_settings>
+</graphics_settings.xml>

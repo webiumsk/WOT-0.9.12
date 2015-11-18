@@ -1,0 +1,1543 @@
+<tutorial-lobby-gui.xml>
+  <scenes>
+    <scene>
+      <name>hangar</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>sceneID</name>
+          <value>Hangar</value>
+        </item>
+        <item>
+          <name>event</name>
+          <value>hangar</value>
+        </item>
+      </value>
+    </scene>
+    <scene>
+      <name>inventory</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>sceneID</name>
+          <value>Inventory</value>
+        </item>
+        <item>
+          <name>event</name>
+          <value>inventory</value>
+        </item>
+      </value>
+    </scene>
+    <scene>
+      <name>	shop	</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>sceneID</name>
+          <value>	Shop	</value>
+        </item>
+        <item>
+          <name>event</name>
+          <value>	shop	</value>
+        </item>
+      </value>
+    </scene>
+    <scene>
+      <name>battleQueue</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>sceneID</name>
+          <value>BattleQueue</value>
+        </item>
+        <item>
+          <name>event</name>
+          <value>
+          </value>
+        </item>
+      </value>
+    </scene>
+    <scene>
+      <name>profile</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>sceneID</name>
+          <value>Profile</value>
+        </item>
+        <item>
+          <name>event</name>
+          <value>profile</value>
+        </item>
+      </value>
+    </scene>
+    <scene>
+      <name>trainings</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>sceneID</name>
+          <value>	Training	</value>
+        </item>
+        <item>
+          <name>event</name>
+          <value>trainings</value>
+        </item>
+      </value>
+    </scene>
+    <scene>
+      <name>	barracks	</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>sceneID</name>
+          <value>	Barracks	</value>
+        </item>
+        <item>
+          <name>event</name>
+          <value>	barracks	</value>
+        </item>
+      </value>
+    </scene>
+    <scene>
+      <name>	techtree	</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>sceneID</name>
+          <value>	Techtree	</value>
+        </item>
+        <item>
+          <name>event</name>
+          <value>	techtree	</value>
+        </item>
+      </value>
+    </scene>
+    <scene>
+      <name>	research	</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>sceneID</name>
+          <value>	Research	</value>
+        </item>
+        <item>
+          <name>event</name>
+          <value>	research	</value>
+        </item>
+      </value>
+    </scene>
+    <scene>
+      <name>customization</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>sceneID</name>
+          <value>	VehicleCustomization	</value>
+        </item>
+        <item>
+          <name>event</name>
+          <value>customization</value>
+        </item>
+      </value>
+    </scene>
+    <scene>
+      <name>FortificationsView</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>sceneID</name>
+          <value>Fortification</value>
+        </item>
+        <item>
+          <name>event</name>
+          <value>FortificationsView</value>
+        </item>
+      </value>
+    </scene>
+  </scenes>
+  <gui-items>
+    <item>
+      <name>LobbyMenu</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>lobbyMenu</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>quitBtn</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>FightButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>lobby</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>header.fightBtn</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	25	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	26	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	25	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	25	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>BattleSelectorBar</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>lobby</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>header.headerButtonBar:HeaderButton_UI?id=battleSelector</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	3	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	2	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	1	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>	FreeXpButton	</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>lobby</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>header.headerButtonBar:HeaderButton_UI?id=freeXP</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	2	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	1	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>PremiumButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>lobby</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>header.headerButtonBar:HeaderButton_UI?id=prem</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	2	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	1	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>VehicleResearchButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>hangar</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>vehResearchPanel.button</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>MaintenanceButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>hangar</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>ammunitionPanel.maintenanceBtn</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	4	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	2	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>OptionalDevice1DropDown</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>hangar</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>ammunitionPanel.optionalDevice1</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>OptionalDevice1DropDownList</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>hangar</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>ammunitionPanel.optionalDevice1.select.dropDownList</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>OptionalDevice1Renderer</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>hangar</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>ammunitionPanel.optionalDevice1.select.dropDownList:ArtefactsListItemRenderer?%OptionalDeviceItemID%</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>	TankCarousel	</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>hangar</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>	carousel	</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	-3	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	18	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>	ResearchItemNode	</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	research	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>researchItems:ResearchItemNode?%ResearchItemNodeID%.button</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	19	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	21	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	20	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	21	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>ResearchItems</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	research	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>researchItems</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>	ResearchRootNode	</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	research	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>researchItems:ResearchItemNode?%ResearchRootNodeID%</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	690	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	-200	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	-328	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	-202	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>ResearchHelpButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	research	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>helpBtn</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>TechTreeHelpButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	techtree	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>helpBtn</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>PersonalCaseHelpButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	personalCase	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>helpBtn</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>CustomizationHelpButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>customization</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>helpBtn</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>EquipmentItem1DropDown</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	technicalMaintenance	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>eqItem1</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>EquipmentItem2DropDown</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	technicalMaintenance	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>eqItem2</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>EquipmentItem3DropDown</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	technicalMaintenance	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>eqItem3</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>EquipmentItem1Renderer</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	technicalMaintenance	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>eqItem1.select.dropDownList:EquipmentListItemRendererUI?%EquipmentItem1ID%</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>EquipmentItem2Renderer</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	technicalMaintenance	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>eqItem2.select.dropDownList:EquipmentListItemRendererUI?%EquipmentItem2ID%</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>EquipmentItem3Renderer</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	technicalMaintenance	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>eqItem3.select.dropDownList:EquipmentListItemRendererUI?%EquipmentItem3ID%</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>TechnicalMaintenanceApplyButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	technicalMaintenance	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>	applyBtn	</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>TechnicalMaintenanceHelpButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	technicalMaintenance	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>helpBtn</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>PremiumPeriodRenderer</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>premiumWindow</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>premiumBody.premList:premRendererUI?%FindPremiumPeriod%</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>PremiumWindowSubmitButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>premiumWindow</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>	submitButton	</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>TankAcademyButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	vehicleBuyWindow	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>bodyMc.academyBtn</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>FreeXpExchangeSubmitButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	exchangeXPWindow	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>submitBtn</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>	SimpleDialogSecondButton	</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	simpleDialog	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>secondBtn</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>AmmunitionPanel</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>hangar</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>ammunitionPanel</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>QuestsControl</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>hangar</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>questsControl</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	1	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+    <item>
+      <name>FalloutQuestsTabButton</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	view	</name>
+          <value>	EventsWindow	</value>
+        </item>
+        <item>
+          <name>	path	</name>
+          <value>view_mc:QuestsSeasonsViewUI.tabs.tabBar:ContentTabRendererUI?id=seasonViewTabFallout</value>
+        </item>
+        <item>
+          <name>padding</name>
+          <type>	dict	</type>
+          <value>
+            <item>
+              <name>	left	</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>top</name>
+              <type>float</type>
+              <value>	0	</value>
+            </item>
+            <item>
+              <name>right</name>
+              <type>float</type>
+              <value>	2	</value>
+            </item>
+            <item>
+              <name>bottom</name>
+              <type>float</type>
+              <value>	12	</value>
+            </item>
+          </value>
+        </item>
+      </value>
+    </item>
+  </gui-items>
+  <gui-commands>
+    <command>
+      <name>ShowTutorialTabInEventsWindow</name>
+      <type>	dict	</type>
+      <value>
+        <item>
+          <name>	type	</name>
+          <value>invoke-method</value>
+        </item>
+        <item>
+          <name>	name	</name>
+          <value>gui.server_events.events_dispatcher.showTutorialTabInEventsWindow</value>
+        </item>
+        <item>
+          <name>	args	</name>
+          <type>	list	</type>
+          <value>
+          </value>
+        </item>
+      </value>
+    </command>
+  </gui-commands>
+</tutorial-lobby-gui.xml>

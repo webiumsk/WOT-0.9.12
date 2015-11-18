@@ -1,0 +1,19 @@
+<environment_gl_probe.xml>
+  <environmentProbe>
+    <transform>
+      <row0>	1.000000 0.000000 0.000000	</row0>
+      <row1>	0.000000 1.000000 0.000000	</row1>
+      <row2>	0.000000 0.000000 1.000000	</row2>
+      <row3>	0.000000 0.000000 0.000000	</row3>
+    </transform>
+    <innerRadius>1.0</innerRadius>
+    <outerRadius>12.0</outerRadius>
+    <dynamic>	true	</dynamic>
+    <sideAttenuation>1.0 1.0 1.0 1.0</sideAttenuation>
+    <texturePMREM>
+    </texturePMREM>
+    <priority>	0	</priority>
+    <probeType>	0	</probeType>
+    <targetType>	0	</targetType>
+  </environmentProbe>
+</environment_gl_probe.xml>

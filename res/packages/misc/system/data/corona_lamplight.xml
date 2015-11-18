@@ -1,0 +1,8 @@
+<corona_lamplight.xml>
+  <Flare>
+    <type>system/materials/corona_lamplight.mfm</type>
+    <size>0.055</size>
+    <depth>	1	</depth>
+    <rgba>255 255 255 192</rgba>
+  </Flare>
+</corona_lamplight.xml>

@@ -1,0 +1,36 @@
+<fx_sun.xml>
+  <actType>	1	</actType>
+  <maxDistance>	1000000	</maxDistance>
+  <area>	35	</area>
+  <fadeSpeed>	12	</fadeSpeed>
+  <Flare>
+    <occlusionLevel>0.5</occlusionLevel>
+    <size>0.5</size>
+    <secondaries>
+      <Flare>
+        <type>system/materials/fx_secondary.mfm</type>
+        <size>0.1</size>
+        <depth>0.3</depth>
+        <rgba>255 128 0 48</rgba>
+      </Flare>
+      <Flare>
+        <type>system/materials/fx_secondary.mfm</type>
+        <size>0.2</size>
+        <depth>0.2</depth>
+        <rgba>255 0 0 32</rgba>
+      </Flare>
+      <Flare>
+        <type>system/materials/fx_corona.mfm</type>
+        <size>0.1</size>
+        <depth>-0.1</depth>
+        <rgba>255 255 0 32</rgba>
+      </Flare>
+      <Flare>
+        <type>system/materials/fx_secondary.mfm</type>
+        <size>0.05</size>
+        <depth>-0.4</depth>
+        <rgba>128 255 0 32</rgba>
+      </Flare>
+    </secondaries>
+  </Flare>
+</fx_sun.xml>

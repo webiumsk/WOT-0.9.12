@@ -1,0 +1,7 @@
+<fx_moon.xml>
+  <Flare>
+    <type>system/materials/fx_halo.mfm</type>
+    <size>0.375</size>
+    <rgba>32 32 64 10</rgba>
+  </Flare>
+</fx_moon.xml>

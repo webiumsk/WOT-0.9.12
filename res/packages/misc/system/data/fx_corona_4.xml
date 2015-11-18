@@ -1,0 +1,8 @@
+<fx_corona_4.xml>
+  <Flare>
+    <type>system/materials/fx_corona_4.mfm</type>
+    <size>0.022</size>
+    <depth>	1	</depth>
+    <rgba>255 255 255 192</rgba>
+  </Flare>
+</fx_corona_4.xml>

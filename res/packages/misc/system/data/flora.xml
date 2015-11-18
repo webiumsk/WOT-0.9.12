@@ -1,0 +1,28 @@
+<flora.xml>
+  <vb_size>	765000	</vb_size>
+  <texture_width>	256	</texture_width>
+  <texture_height>	128	</texture_height>
+  <light_map>
+    <material>system/materials/light_map.mfm</material>
+    <width>	512	</width>
+    <height>	512	</height>
+    <timeToleranceSecs>	60	</timeToleranceSecs>
+    <textureFeedName>floraLightMap</textureFeedName>
+    <effectTextureName>FloraLightMap</effectTextureName>
+    <effectTransformName>FloraLightMapTransform</effectTransformName>
+  </light_map>
+  <light_map2>
+    <material>system/materials/light_map2.mfm</material>
+    <width>	512	</width>
+    <height>	512	</height>
+    <timeToleranceSecs>	60	</timeToleranceSecs>
+    <textureFeedName>floraLightMap</textureFeedName>
+    <effectTextureName>FloraLightMap</effectTextureName>
+    <effectTransformName>FloraLightMapTransform</effectTransformName>
+  </light_map2>
+  <ecotypes>
+    <empty>
+      <sound_tag>	wood	</sound_tag>
+    </empty>
+  </ecotypes>
+</flora.xml>

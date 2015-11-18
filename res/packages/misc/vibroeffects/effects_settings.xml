@@ -1,0 +1,180 @@
+<effects_settings.xml>
+  <acceleration_threshold>	1	</acceleration_threshold>
+  <deceleration_threshold>	-4	</deceleration_threshold>
+  <overlapped_gain_multiplier>	0	</overlapped_gain_multiplier>
+  <buttons>
+    <redButton>red_button_click_veff</redButton>
+  </buttons>
+  <effects>
+    <effect>
+      <name>startup_veff</name>
+      <priority>	10000	</priority>
+      <group>gui</group>
+    </effect>
+    <effect>
+      <name>button_click_veff</name>
+      <priority>	10000	</priority>
+      <group>gui</group>
+    </effect>
+    <effect>
+      <name>move_idle_veff</name>
+      <priority>	100	</priority>
+      <group>engine</group>
+    </effect>
+    <effect>
+      <name>move_swamp_low_veff</name>
+      <priority>	100	</priority>
+      <group>engine</group>
+    </effect>
+    <effect>
+      <name>move_swamp_high_veff</name>
+      <priority>	100	</priority>
+      <group>engine</group>
+    </effect>
+    <effect>
+      <name>move_sand_low_veff</name>
+      <priority>	100	</priority>
+      <group>engine</group>
+    </effect>
+    <effect>
+      <name>move_sand_high_veff</name>
+      <priority>	100	</priority>
+      <group>engine</group>
+    </effect>
+    <effect>
+      <name>move_low_veff</name>
+      <priority>	100	</priority>
+      <group>engine</group>
+    </effect>
+    <effect>
+      <name>move_high_veff</name>
+      <priority>	100	</priority>
+      <group>engine</group>
+    </effect>
+    <effect>
+      <name>move_acceleration_veff</name>
+      <priority>	200	</priority>
+      <group>	acceleration	</group>
+    </effect>
+    <effect>
+      <name>move_braking_veff</name>
+      <priority>	200	</priority>
+      <group>	acceleration	</group>
+    </effect>
+    <effect>
+      <name>move_track_veff</name>
+      <priority>	200	</priority>
+      <group>	acceleration	</group>
+    </effect>
+    <effect>
+      <name>shot_reload_veff</name>
+      <priority>	300	</priority>
+      <group>shots</group>
+    </effect>
+    <effect>
+      <name>shot_small_veff</name>
+      <priority>	300	</priority>
+      <group>shots</group>
+    </effect>
+    <effect>
+      <name>shot_medium_veff</name>
+      <priority>	300	</priority>
+      <group>shots</group>
+    </effect>
+    <effect>
+      <name>shot_large_veff</name>
+      <priority>	300	</priority>
+      <group>shots</group>
+    </effect>
+    <effect>
+      <name>shot_main_veff</name>
+      <priority>	300	</priority>
+      <group>shots</group>
+    </effect>
+    <effect>
+      <name>hit_nonpenetration_veff</name>
+      <priority>	400	</priority>
+      <group>	hits	</group>
+    </effect>
+    <effect>
+      <name>hit_ricochet_veff</name>
+      <priority>	400	</priority>
+      <group>	hits	</group>
+    </effect>
+    <effect>
+      <name>hit_splash_veff</name>
+      <priority>	400	</priority>
+      <group>	hits	</group>
+    </effect>
+    <effect>
+      <name>hit_veff</name>
+      <priority>	400	</priority>
+      <group>	hits	</group>
+    </effect>
+    <effect>
+      <name>ramming_destructible_veff</name>
+      <priority>	450	</priority>
+      <group>collisions</group>
+    </effect>
+    <effect>
+      <name>ramming_indestructible_veff</name>
+      <priority>	451	</priority>
+      <group>collisions</group>
+    </effect>
+    <effect>
+      <name>ramming_vehicle_veff</name>
+      <priority>	452	</priority>
+      <group>collisions</group>
+    </effect>
+    <effect>
+      <name>crit_track_veff</name>
+      <priority>	500	</priority>
+      <group>damage</group>
+    </effect>
+    <effect>
+      <name>crit_track_front_left_veff</name>
+      <priority>	500	</priority>
+      <group>damage</group>
+    </effect>
+    <effect>
+      <name>crit_track_front_right_veff</name>
+      <priority>	500	</priority>
+      <group>damage</group>
+    </effect>
+    <effect>
+      <name>crit_track_rear_right_veff</name>
+      <priority>	500	</priority>
+      <group>damage</group>
+    </effect>
+    <effect>
+      <name>crit_track_rear_left_veff</name>
+      <priority>	500	</priority>
+      <group>damage</group>
+    </effect>
+    <effect>
+      <name>crit_run_veff</name>
+      <priority>	500	</priority>
+      <group>damage</group>
+    </effect>
+    <effect>
+      <name>crit_engine_veff</name>
+      <priority>	500	</priority>
+      <group>damage</group>
+    </effect>
+    <effect>
+      <name>crit_contusion_veff</name>
+      <priority>	500	</priority>
+      <group>damage</group>
+    </effect>
+    <effect>
+      <name>crit_fire_veff</name>
+      <priority>	500	</priority>
+      <group>damage</group>
+    </effect>
+    <effect>
+      <name>crit_death_veff</name>
+      <priority>	9000	</priority>
+      <group>damage</group>
+    </effect>
+  </effects>
+</effects_settings.xml>

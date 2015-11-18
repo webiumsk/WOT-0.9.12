@@ -1,0 +1,24 @@
+<music_events.xml>
+  <music>
+    <login>/music/main_menu/main_menu</login>
+    <wwlogin>music_main_menu</wwlogin>
+    <lobby>/hangar/music/hangar/lobby</lobby>
+    <wwlobby>music_loddy</wwlobby>
+    <combat_victory>/music/victory/victory</combat_victory>
+    <wwcombat_victory>music_victory</wwcombat_victory>
+    <combat_lose>	/music/defeat/defeat	</combat_lose>
+    <wwcombat_lose>music_defeat</wwcombat_lose>
+    <combat_draw>/music/drawn_game/drawn_game</combat_draw>
+    <wwcombat_draw>music_drawn_game</wwcombat_draw>
+  </music>
+  <ambient>
+    <lobby>/hangar/ambient/hangar_v2/hangar_v2_drone_industrial</lobby>
+    <wwlobby>hangar_v2_drone_industrial</wwlobby>
+    <fort>/fortified_area/ambient/dynamic_ambient_main</fort>
+    <wwfort>fa_amb_dynamic_ambient_main</wwfort>
+    <shop>/hangar/ambient/hangar_v2/hangar_v2_drone_industrial</shop>
+    <wwshop>hangar_v2_drone_industrial</wwshop>
+    <rating>/hangar/ambient/hangar_v2/hangar_v2_drone_industrial</rating>
+    <wwrating>hangar_v2_drone_industrial</wwrating>
+  </ambient>
+</music_events.xml>

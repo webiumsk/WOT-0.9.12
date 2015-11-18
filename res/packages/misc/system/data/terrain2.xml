@@ -1,0 +1,74 @@
+<terrain2.xml>
+  <texturedEffect>shaders/terrain/terrain2.fx</texturedEffect>
+  <lodTextureEffect>shaders/terrain/terrain2_lod_texture.fx</lodTextureEffect>
+  <zPassEffect>shaders/terrain/terrain2_z_pass.fx</zPassEffect>
+  <shadowCastEffect>shaders/terrain/terrain2_shadow_cast.fx</shadowCastEffect>
+  <version>	200	</version>
+  <instancing>	true	</instancing>
+  <heightMapUnits>	0.010000	</heightMapUnits>
+  <heightMapSize>	128	</heightMapSize>
+  <normalMapSize>	128	</normalMapSize>
+  <normalMapCaching>	true	</normalMapCaching>
+  <holeMapSize>	25	</holeMapSize>
+  <shadowMapSize>	32	</shadowMapSize>
+  <blendMapSize>	128	</blendMapSize>
+  <blendMapCaching>	true	</blendMapCaching>
+  <lodMapSize>	128	</lodMapSize>
+  <aoMapSize>	16	</aoMapSize>
+  <lodInfo>
+    <enabled>	true	</enabled>
+    <startBias>0.8</startBias>
+    <endBias>0.99</endBias>
+    <startLod>	0	</startLod>
+    <lodDistances>
+      <distance0>25.0</distance0>
+      <distance1>120.0</distance1>
+      <distance2>250.0</distance2>
+      <distance3>700.0</distance3>
+      <distance4>1100.0</distance4>
+      <distance5>1700.0</distance5>
+      <distance6>2300.0</distance6>
+      <distance7>2900.0</distance7>
+      <distance8>3500.0</distance8>
+    </lodDistances>
+    <lodTextureStart>600.0</lodTextureStart>
+    <lodTextureDistance>100.0</lodTextureDistance>
+    <blendPreloadDistance>600.0</blendPreloadDistance>
+    <lodNormalStart>600.0</lodNormalStart>
+    <lodNormalDistance>100.0</lodNormalDistance>
+    <normalPreloadDistance>600.0</normalPreloadDistance>
+    <bumpFadingStart>600.0</bumpFadingStart>
+    <bumpFadingDistance>100.0</bumpFadingDistance>
+    <defaultHeightMapLod>	2	</defaultHeightMapLod>
+    <detailHeightMapDistance>500.0</detailHeightMapDistance>
+    <server>
+      <heightMapLod>	0	</heightMapLod>
+    </server>
+  </lodInfo>
+  <lodOptions>
+    <option>
+      <label>Far</label>
+      <value>1.0</value>
+    </option>
+    <option>
+      <label>Medium</label>
+      <value>0.75</value>
+    </option>
+    <option>
+      <label>	Near	</label>
+      <value>0.5</value>
+    </option>
+  </lodOptions>
+  <detailNormal>
+    <normalMap>maps/landscape/detail/sand_NM.dds</normalMap>
+    <wrapU>10.0</wrapU>
+    <wrapV>10.0</wrapV>
+  </detailNormal>
+  <borderline>
+    <width>0.0</width>
+    <blendMultiplier>0.4</blendMultiplier>
+    <fadingStart>0.0</fadingStart>
+    <fadingEnd>100.0</fadingEnd>
+    <attenuationDistance>300.0</attenuationDistance>
+  </borderline>
+</terrain2.xml>

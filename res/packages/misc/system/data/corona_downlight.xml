@@ -1,0 +1,9 @@
+<corona_downlight.xml>
+  <Flare>
+    <occlusionLevel>0.1</occlusionLevel>
+    <type>system/materials/corona_downlight.mfm</type>
+    <size>0.07</size>
+    <depth>	1	</depth>
+    <rgba>255 255 255 192</rgba>
+  </Flare>
+</corona_downlight.xml>
